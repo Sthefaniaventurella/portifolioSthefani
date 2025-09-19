@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Galáctico</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="particles"></canvas>
+
+  <!-- Menu fixo -->
+  <nav>
+    <div id="name"> Hello, Word! </div>
+    <ul>
+      <li><a href="#inicio" class="active">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Início -->
+  <section id="inicio" class="visible">
+    <div class="circle">SV</div>
+    <!-- <h2>Análise e Desenvolvimento de Sistemas</h2> -->
+    <h1>Sthéfani Vitória</h1>
+    <p>Estudante de <span style="color:#7ab3f9;">Análise e Desenvolvimento de Sistemas</span>, explorando as infinitas possibilidades da Tecnologia, o universo dos Dados e Inteligência Artificial.</p>
+
+    <!-- <div class="explore">Explore</div>
+
+    <div>
+      <button class="btn"><img src="github.svg" alt=""></button>
+      <button class="btn"><img src="github.svg" alt=""></button>
+      <button class="btn"><img src="github.svg" alt=""></button>
+    </div>
+  </section> -->
+<section class="explore-section">
+  <p class="explore-text">Explore</p>
+  <div class="arrow-down">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 5v14M19 12l-7 7-7-7"/>
+    </svg>
+  </div>
+  <div class="social-icons">
+    <a href="https://github.com/Sthefaniaventurella" target="_blank" class="social-icon github">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 17 2.22A13.33 13.33 0 0 0 12 2c-1.34 0-2.67.22-4 .59C5.27.65 4.09 1 4.09 1A5.07 5.07 0 0 0 4 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/in/sthefani-vitoria/" target="_blank" class="social-icon linkedin">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+        <rect x="2" y="9" width="4" height="12"/>
+        <circle cx="4" cy="4" r="2"/>
+      </svg>
+    </a>
+    <!-- <a href="mailto:ads.sthefani@gmail.com" class="social-icon email">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+        <polyline points="22,6 12,13 2,6"/>
+      </svg>
+    </a> -->
+  </div>
+</section>
+  <!-- Sobre -->
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou estudante de Análise e Desenvolvimento de Sistemas, com interesse em desenvolvimento web, bancos de dados, ciência de dados e inteligência artificial. Busco constantemente evoluir minhas habilidades, unindo criatividade, disciplina e foco em soluções práticas.</p>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Projeto 1</h3>
+        <p>Breve descrição do projeto com destaque tecnológico.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 2</h3>
+        <p>Breve descrição do projeto com destaque tecnológico.</p>
+      </div>
+      <div class="card">
+        <h3>Projeto 3</h3>
+        <p>Breve descrição do projeto com destaque tecnológico.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <div class="skills-grid">
+      <div class="skill-card" style="--level: 90%;">
+        <div class="skill-icon">🌐</div>
+        <h3>HTML</h3>
+        <p>Proficiência: 90%</p>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+      <div class="skill-card" style="--level: 80%;">
+        <div class="skill-icon">🎨</div>
+        <h3>CSS</h3>
+        <p>Proficiência: 80%</p>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+      <div class="skill-card" style="--level: 52%;">
+        <div class="skill-icon">⚡</div>
+        <h3>JavaScript</h3>
+        <p>Proficiência: 52%</p>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+      <div class="skill-card" style="--level: 65%;">
+        <div class="skill-icon">🏢</div>
+        <h3>ADVPL</h3>
+        <p>Proficiência: 65%</p>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+      <div class="skill-card" style="--level: 75%;">
+        <div class="skill-icon">🗄️</div>
+        <h3>MySQL</h3>
+        <p>Proficiência: 75%</p>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+      <div class="skill-card" style="--level: 75%;">
+        <div class="skill-icon">🐍</div>
+        <h3>Python</h3>
+        <p>Proficiência: 75%</p>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+           <div class="skill-card" style="--level: 60%;">
+        <div class="skill-icon">📊</div>
+        <h3>PowerBi</h3>
+        <p>Proficiência: 60%</p>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Gostaria de conversar sobre tecnologia ou possíveis projetos?</p>
+    <div class="social-icons"><a href="mailto:ads.sthefani@gmail.com" class="social-icon email">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+        <polyline points="22,6 12,13 2,6"/>
+      </svg>
+    </a>
+    </div>
+  </section>
+
+  <!-- Script partículas -->
+  <script>
+    const canvas = document.getElementById('particles');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+
+    function resize() {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.r = Math.random() * 2;
+        this.speedY = Math.random() * 0.5 + 0.2;
+      }
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+        ctx.fillStyle = Math.random() > 0.5 ? '#00FFFF' : '#fff';
+        ctx.fill();
+      }
+      update() {
+        this.y += this.speedY;
+        if (this.y > canvas.height) this.y = 0;
+        this.draw();
+      }
+    }
+
+    function init() {
+      particles = [];
+      for (let i = 0; i < 100; i++) particles.push(new Particle());
+    }
+
+    function animate() {
+      ctx.fillStyle = "rgba(10, 10, 35, 0.3)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => p.update());
+      requestAnimationFrame(animate);
+    }
+
+    init();
+    animate();
+
+    // Scroll aparecendo conteúdo
+    const sections = document.querySelectorAll("section, .skill-card");
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add("visible");
+      });
+    }, { threshold: 0.2 });
+    sections.forEach(sec => observer.observe(sec));
+
+    // Menu ativo
+    const navLinks = document.querySelectorAll("nav a");
+    const sectionEls = document.querySelectorAll("section");
+
+    window.addEventListener("scroll", () => {
+      let current = "";
+      sectionEls.forEach(sec => {
+        const top = window.scrollY;
+        const offset = sec.offsetTop - 150;
+        const height = sec.offsetHeight;
+        if (top >= offset && top < offset + height) {
+          current = sec.getAttribute("id");
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+          link.classList.add("active");
+        }
+      });
+    });
+  </script>
+</body>
+</html>
